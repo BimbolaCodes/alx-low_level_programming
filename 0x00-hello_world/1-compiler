@@ -1,3 +1,8 @@
 #!/bin/bash
-export CFILE=1-main.c
-a.out -o main.o
+#include <stdio.h>
+int main(void)
+{
+	printf("CFILE\n");
+	return(0);
+
+}
