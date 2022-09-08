@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILE.o -E -o $CFILE.c
+gcc -c $CFILE > $ {$CFILE::-2} ".0"
+
