@@ -1,8 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-int main(void)
-{
-	printf("CFILE\n");
-	return(0);
-
-}
+CFILE.c -o CFILE.o
