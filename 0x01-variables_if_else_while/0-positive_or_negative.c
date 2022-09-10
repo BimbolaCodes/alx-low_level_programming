@@ -5,9 +5,10 @@
 /**
  * main - point of entry
  *
- *return: 0
+ * Description: introducing betty
+ * return: 0
  */
-int main (void)
+int main(void)
 {
 	int n;
 
