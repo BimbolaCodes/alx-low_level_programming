@@ -8,8 +8,14 @@ int main(void)
 {
 	int a = 0;
 
-	for (; a < 10 ; a++)
-		printf("%d", a);
+	for = ('a'; a <= 'z' ; a++)
+	{
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
+	}
 	putchar('\n');
 	return (0);
 }
