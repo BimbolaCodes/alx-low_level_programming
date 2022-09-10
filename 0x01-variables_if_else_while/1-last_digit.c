@@ -6,9 +6,8 @@
 /**
  * main - entry point
  *
- * description: program gives a random number to the variable n when executed.
+ * Return: always return 0
  *
- * return: always return 0
  */
 int main(void)
 {

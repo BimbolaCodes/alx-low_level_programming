@@ -4,8 +4,8 @@
 /**
  * main - print function variable
  *
- * Description: ptint result if negative, zero or positive 
- * return: 0
+ * Description: ptint result if negative, zero or positive
+ * return: always return 0
  */
 int main(void)
 {
