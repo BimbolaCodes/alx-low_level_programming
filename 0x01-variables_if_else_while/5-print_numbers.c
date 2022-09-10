@@ -2,10 +2,11 @@
 /**
  * main - entry point
  *
- * Return -always returns 0
+ * Return: always returns 0
  *
  */
 int main(void)
+{
 	int a = 0;
 
 	for (; a < 10 ; a++)
