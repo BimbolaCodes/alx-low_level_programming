@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - point of entry
+ * main - print function variable
  *
- * Description: introducing betty
+ * Description: ptint result if negative, zero or positive 
  * return: 0
  */
 int main(void)
