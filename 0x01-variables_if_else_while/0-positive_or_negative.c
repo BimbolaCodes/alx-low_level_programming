@@ -4,7 +4,7 @@
 /**
  * main - print function variable
  *
- * return: always return 0
+ * Return: Always 0(success)
  *
  */
 int main(void)
