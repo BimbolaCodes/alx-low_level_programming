@@ -2,43 +2,41 @@
 /**
  * main - Entry point
  *
- * Return - Always return 0(success)
+ * Return: always return 0(success)
  */
 int main(void)
-
 {
-int first_nums;
-int second_nums;
-
-for (first_nums = 0; first_nums < 100; first_nums++)
-}
-for (second_nums = first_nums + 1; second_nums < 100; second_nums++)
+int e, i, j, k;
+for (e = 48, e <= 57; e++)
 {
+for (i = 48, i <= 57; i++)
+{
+for (j = 48, j <= 57; j++)
+{
+for (k = 48, k <= 57; k++)
+{
+if (((j + k) > (e + 1) && j >= e) || e < j)
+{
+putchar(e);
+putchar(i);
+putchar(32);
+putchar(j);
+putchar(k);
 
-putchar (first_nums / 10 + '0');
-putchar (first_nums % 10 + '0');
-
-putchar (' ');
-
-putchar (second_nums / 10 + '0');
-putchar (second_nums % 10 + '0');
-
-if (first_nums == 98 second_nums == 99)
+if (e + i + j + k == 227 && e == 57)
 {
 break;
 }
-
-putchar(',');
-putchar(' ');
-
-
+else
+{
+putchar(44);
+putchar(32);
 }
-
 }
-
-putchar('\n');
-
-
+}
+}
+}
+}
+putchar(10);
 return (0);
-
 }
