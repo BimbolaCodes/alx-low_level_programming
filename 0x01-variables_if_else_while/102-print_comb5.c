@@ -7,13 +7,13 @@
 int main(void)
 {
 int e, i, j, k;
-for (e = 48, e <= 57; e++)
+for (e = 48; e <= 57; e++)
 {
-for (i = 48, i <= 57; i++)
+for (i = 48; i <= 57; i++)
 {
-for (j = 48, j <= 57; j++)
+for (j = 48; j <= 57; j++)
 {
-for (k = 48, k <= 57; k++)
+for (k = 48; k <= 57; k++)
 {
 if (((j + k) > (e + 1) && j >= e) || e < j)
 {
