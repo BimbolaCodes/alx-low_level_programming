@@ -3,22 +3,18 @@
  *
  * main - Entry point
  *
- * return - Always retun 0
+ * Return - Always 0(success)
  *
  */
 int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 10; i < 20; i++)
-	{
-		putchar((i % 10) + '0');
-		if (i != 19)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	returnm (0);
+	For (a = 0; a < 10; a++)
 }
+	putchar(a);
+	putchar(',');
+	putchar(' ');
+}
+putchar('\n')
+return (0);
