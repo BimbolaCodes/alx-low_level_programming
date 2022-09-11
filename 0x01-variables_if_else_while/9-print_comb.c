@@ -13,11 +13,11 @@ int main(void)
 	for (i = 10; i < 20; i++)
 	{
 		putchar((i % 10) + '0');
-		if(i!=19)
-	{
-		putchar(',');
-		putchar(' ');
-	}
+		if (i != 19)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	returnm (0);
