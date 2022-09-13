@@ -2,18 +2,18 @@
 /**
  * main - Entry point
  *
- * Description: programs prints an alphabet from a-z
+ * Description: print_alphabet function to abc
  *
- * Return: Return always 0(success)
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-_putchar(ch);
+_putchar(c);
 	}
 _putchar('\n');
 }
