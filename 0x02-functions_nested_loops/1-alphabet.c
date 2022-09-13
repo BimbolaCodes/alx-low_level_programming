@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet function print_alphabet to abc
+ * print_alphabet - function print_alphabet to abc
  *
  * Return: 0
  */
