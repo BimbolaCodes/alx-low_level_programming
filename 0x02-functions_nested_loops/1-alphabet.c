@@ -9,8 +9,9 @@
 
 void print_alphabet(void)
 {
-	int ch
+	char ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar();
+	_putchar();
+	_putchar('\n');
 	return (0);
 }
