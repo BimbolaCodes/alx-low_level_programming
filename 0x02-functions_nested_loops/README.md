@@ -1,1 +1,1 @@
-0x02. C - Functions, nested loops practical description 
+This is a readme file for functions, nested_loops
