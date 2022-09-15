@@ -1,25 +1,21 @@
 #include <main.h>
 /**
  * Print_numbers -  print the time trables
- * 
  * Parameters
- *
  * @ n parameters
- *
- * times_table: returns 0
+ * Return: returns 0
  */
 void print_times_table(int n);
 {
 int digit, mult, result;
 {
-if (n <= 15 && n >= 0
+if (n <= 15 && n >= 0)
 {
 for (digit = 0; digit <= n; digit++)
 {
 _putchar('0');
 
 for (mult = 1; mult <= n; mult++)
-
 {
 _putchar(',');
 _putchar(' ');
@@ -29,7 +25,8 @@ _putchar(' ');
 _putchar('0');
 
 if (result <= 9)
-_putchar(' ');if (result >= 100)
+_putchar(' ');
+if (result >= 100)
 {
 _putchar((result / 100) + '0');
 _putchar((result / 10) % 10 + '0');
@@ -41,7 +38,6 @@ _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
 
 }
-
 _putchar('\n');
 
 }
