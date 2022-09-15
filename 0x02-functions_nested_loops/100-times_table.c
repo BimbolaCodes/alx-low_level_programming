@@ -8,7 +8,7 @@
  *
  * times_table: returns 0
  */
- void print_times_table(int n);
+void print_times_table(int n);
 {
 int digit, mult, result;
 {
