@@ -1,13 +1,12 @@
 #include "main.h"
+
 /**
  * more_numbers - Print numbers 0 - 14 with a new line - 10 times
  * Return:void
  */
-
 void more_numbers(void)
 {
 	char n, c;
-	
 	int i = 0;
 
 	while (i < 10)
