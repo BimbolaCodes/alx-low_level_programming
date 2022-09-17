@@ -1,11 +1,11 @@
 #include "main.h"
 
- /**
-  * print_square - Print a square of single characters
-  * @n : the number n x n of the square
-  * Constraints - use _putchar to print and use
-  * Return: void
-  */
+/**
+* print_square - print a square of single characters
+* @n : the number n x n of the square
+* Constraints -  use _putchar to print and use
+* Return: void
+*/
 void print_square(int n)
 {
 	int i = 0, ii;
