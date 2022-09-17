@@ -6,6 +6,7 @@
   * Constraints -  use _putchar to print and use
   * Return: void
   */
+
 void print_square(int n)
 {
 	int i = 0, ii;
