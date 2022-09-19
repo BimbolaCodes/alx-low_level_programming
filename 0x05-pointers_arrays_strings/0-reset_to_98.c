@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - check the code
- *
- * return: always 0
+ * reset_to_98 - Function that resets the reference of an integer pointer to 98
+ * @n: pointer to  modify
+ * return: void
  */
 
-void reset_to_98(int*n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
