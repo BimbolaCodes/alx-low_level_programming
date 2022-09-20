@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * puts2 - prints xters of a string
- * @str: the used string reference
- * Return: 0
+ * puts2 - prints all the characters in a string with
+ * even indexes
+ * @str: pointer referencing the string
+ * Return: void
  */
 
-void _puts(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
