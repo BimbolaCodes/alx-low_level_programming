@@ -1,17 +1,22 @@
 #include "main.h"
 
 /**
- * _puts - writes the string to the command line
- * followed by the new line character
- * @str: pointer referencing the memory address where
- * the string is stored in form of an array
- * Return: void
+ * puts2 - prints xters of a string
+ * @str: the used string reference
+ * Return: 0
  */
+
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		_putchar(*str);
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
+		i++;
 	}
 	_putchar('\n');
 }
