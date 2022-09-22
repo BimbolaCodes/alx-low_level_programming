@@ -11,7 +11,7 @@ char *rot13(char *s)
 	char alphabet[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char nycunorg[53] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	int i = 0, j;
-	
+
 	while (s[i])
 	{
 		j = 0;
