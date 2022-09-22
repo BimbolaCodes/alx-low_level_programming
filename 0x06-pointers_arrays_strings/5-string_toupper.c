@@ -1,42 +1,19 @@
 #include "main.h"
 
 /**
- * *cap_string - Capitalize all the words in a sentence to
- * @str: pointer referencing the string
- * Return: resulting capitalized string
+ * *string_toupper - convert lower case string to upper
+ * @str: pointer referencing the string array
+ * Return: the resulting string's pointer
  */
-char *cap_string(char *str)
+
+char *string_toupper(char *str)
 {
-	char sep[] = ",\t;\n; .!?\"(){}";
-	int flag, i, ii;
+	int count;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (count = 0; str[count] != '\0'; count++)
 	{
-		flag = 0;
-
-		if (i == 0)
-		{
-			flag = 1;
-		}
-		else
-		{
-			for (ii = 0; sep[ii] != '\0'; ii++)
-			{
-				if (str[i - 1] == sep[ii])
-				{
-					flag = 1;
-					break;
-				}
-			}
-		}
-
-		if (flag == 1)
-		{
-			if (str[i] <= 'z' && str[i] >= 'a')
-			{
-				str[i] -= ('a' - 'A');
-			}
-		}
+		if (str[count] <= 'z' && str[count] >= 'a')
+			str[count] -= 32;
 	}
 
 	return (str);
