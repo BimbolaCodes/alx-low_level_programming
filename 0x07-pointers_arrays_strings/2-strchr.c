@@ -4,7 +4,7 @@
  * _strchr - prints the character c if found
  * @s: pointer to the char array
  * @c: char parameters to be found
- * Return:
+ * Return: *s
  */
 
 char *_strchr(char *s, char c)
